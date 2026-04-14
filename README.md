@@ -115,7 +115,7 @@ uvicorn app.main:app --reload --port 8000
 docker-compose up
 ```
 
-API docs: http://localhost:8000/docs
+API docs: https://backend-sepia-mu-47.vercel.app
 
 ### 3. Mobile App (Flutter)
 
@@ -149,15 +149,14 @@ cd admin
 # Install dependencies
 npm install
 
-# Create .env.local from template
-cp .env.example .env.local
+
 # Edit with your Firebase web config
 
 # Run development server
 npm run dev
 ```
 
-Dashboard: http://localhost:5173
+Dashboard: https://admin-phi-beryl-87.vercel.app/login
 
 ### 5. Bootstrap First Admin
 
